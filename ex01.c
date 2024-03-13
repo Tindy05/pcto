@@ -2,6 +2,7 @@
 
 int main()
 {
-    printf("mar\niaaa\n");
-    printf(ciao a tutti\niaaa)
+    char parola[25];
+    scanf("%[^\n]s" , parola);
+    printf("%s" , parola );
 }
